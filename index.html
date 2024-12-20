@@ -20,7 +20,7 @@
 
     <section class="todo d-flex mt-5 mb-0 align-items-center justify-content-start" id="todo">
 
-        <div class="container d-flex flex-column align-items-center justify-content-center">
+        <div class="container-md  container-fluid d-flex flex-column align-items-center justify-content-center">
             <div class="todo-form-container w-75 shadow bg-white p-5 border border-2 rounded-1">
 
                 <h3 class="text-uppercase mb-4 todo-form-title text-center text-success">my todos</h3>
@@ -32,20 +32,16 @@
                         <input type="text" class="form-control" id="todo-input" placeholder="New Task ...">
                         <i class="fa-solid fa-check fa-lg text-success position-absolute  d-none"></i>
                         <i class="fa-solid fa-circle-exclamation fa-lg text-danger position-absolute d-none"></i>
-                        <div class="alert d-none alert-danger p-2 text-capitalize d-none">
-
-                        </div>
+                        
                     </div>
                     <button id="add-btn" type="button"
-                        class="add-btn d-flex align-items-center col-md-auto col-12 btn btn-success text-uppercase">
+                        class="add-btn d-flex justify-content-center align-items-center col-md-auto col-4 ms-auto ms-md-0 btn btn-success text-uppercase">
                         <span  id="first">add</span>
                         <span id="second" class="loader  d-none text-white"></span>
                     </button>
                 </div>
 
-                <div id="addAlert" class="alert d-none mt-3 text-center text-capitalize d-block">
-
-                </div>
+        
 
 
                 <div class="task-list" id="tasksContainer">

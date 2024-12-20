@@ -114,9 +114,6 @@ async function getAllToDos() {
     let data = await fetch(`https://todos.routemisr.com/api/v1/todos/${apiKey}`)
         .catch(function (e) {
             toastr.error('Error in getting tasks ', 'Error');
-          
-
-
         })
     let todosRes = await data.json()
     if (todosRes.todos) {

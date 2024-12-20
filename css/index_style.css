@@ -16,11 +16,11 @@ body {
 
 .task {
     transition: all 0.3s ease;
-    width: 85% !important;
+    width: 90% !important;
 }
 
 .task:hover {
-    width: 90% !important;
+    width: 95% !important;
 }
 .task i:hover {
     cursor: pointer;
@@ -103,3 +103,23 @@ body {
     transform: rotate(360deg);
   }
 } 
+
+
+
+
+
+
+
+@media (max-width: 768px) { 
+  .todo-form-container {
+    width: 100% !important;
+  }
+}
+@media (max-width: 430px) { 
+  .todo-form-title {
+   font-size:30px  !important;
+  }
+  #emptyAlert {
+    font-size: 15px !important;
+  }
+}
