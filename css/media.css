@@ -1,0 +1,28 @@
+@media screen and (max-width:991px){
+    html {
+        font-size: 13px;
+    }
+    header h1 {
+    font-size: 2.5rem;
+    }
+    .navbar-collapse {
+        background-color: #fff;
+        text-align: center;
+    }
+    .navbar-collapse a {
+        color: #000 !important;
+        /* font-weight: 500; */
+    }
+    .navbar-collapse .nav-item {
+        margin: 1rem 0;
+    }
+    .contact-form  {
+        width: 100% !important;
+    }
+
+    .contact .container .row.w-75 {
+        width: 100% !important;
+    }
+
+
+}
